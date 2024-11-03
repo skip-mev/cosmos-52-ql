@@ -1,0 +1,7 @@
+---
+library: false
+warnOnImplicitThis: false
+name: skip-mev/cosmos-52
+version: 0.0.1
+dependencies:
+  codeql/go-all: ^2.1.1
