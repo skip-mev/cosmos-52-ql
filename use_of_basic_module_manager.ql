@@ -14,4 +14,4 @@ import go
 from TypeExpr te
 where
   te.getType().getName() = "BasicManager" and te.getType().getPackage().getPath() = "github.com/cosmos/cosmos-sdk/types/module"
-select te, "Usage of a type from the deprecated x/crisis module."
+select te, "BasicManager is deprecated in v0.52 - use the ModuleManager instead."
